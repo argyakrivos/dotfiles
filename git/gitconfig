@@ -118,10 +118,22 @@
   # Git diff will use (i)ndex, (w)ork tree, (c)ommit and (o)bject
   # instead of a/b/c/d as prefixes for patches
   mnemonicprefix = true
-	algorithm = patience
+  algorithm = patience
 [rerere]
   # Remember my merges
   # http://gitfu.wordpress.com/2008/04/20/git-rerere-rereremember-what-you-did-last-time/
   enabled = true
+[filter "media"]
+  clean = git media clean %f
+  smudge = git media smudge %f
+  required = true
+[user]
+  name = Anargyros Akrivos
+  email = argy@akrivos.me
+  signingkey = 5A26ED733FA71E3D
+[commit]
+  gpgsign = true
+[gpg]
+  program = gpg2
 [include]
   path = .gitconfig.user
