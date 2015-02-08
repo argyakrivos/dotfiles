@@ -174,6 +174,8 @@ def install_homebrew
   puts "======================================================"
   run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher ghi}
   run %{brew install macvim}
+  run %{ chmod a+x $HOME/.yadr/brew/install.sh }
+  run %{ $HOME/.yadr/brew/install.sh }
   puts
   puts
 end
