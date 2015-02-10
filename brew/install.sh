@@ -49,6 +49,7 @@ brew cask install dash
 brew cask install github
 brew cask install mou
 brew cask install skype
+brew cask install slack
 brew cask install telegram
 brew cask install transmission
 brew cask install evernote
