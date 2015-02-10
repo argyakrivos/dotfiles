@@ -28,6 +28,10 @@ brew install sbt
 #
 # Cask packages
 #
+
+# Install the following packages under /Applications
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 brew cask install google-chrome
