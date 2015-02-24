@@ -34,6 +34,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
+brew cask install java
 brew cask install google-chrome
 brew cask install dropbox-experimental
 brew cask install iterm2
@@ -41,7 +42,7 @@ brew cask install 1password
 brew cask install alfred
 brew cask install sublime-text3
 brew cask install the-unarchiver
-brew cask install spotifybeta
+brew cask install spotify
 brew cask install caffeine
 brew cask install divvy
 brew cask install appcleaner
