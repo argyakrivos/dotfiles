@@ -44,7 +44,7 @@ brew cask install sublime-text3
 brew cask install the-unarchiver
 brew cask install spotify
 brew cask install caffeine
-brew cask install divvy
+brew cask install spectacle
 brew cask install appcleaner
 brew cask install dash
 brew cask install github
