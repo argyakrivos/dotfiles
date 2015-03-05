@@ -34,7 +34,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
-brew cask install java
+brew cask install java7
 brew cask install google-chrome
 brew cask install dropbox-experimental
 brew cask install iterm2
