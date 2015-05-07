@@ -172,10 +172,47 @@ def install_homebrew
   puts "======================================================"
   puts "Installing Homebrew packages...There may be some warnings."
   puts "======================================================"
+  run %{export HOMEBREW_CASK_OPTS="--appdir=/Applications"}
+  run %{brew install caskroom/cask/brew-cask}
+  run %{brew tap caskroom/versions}
+  run %{brew cask install java7}
+  run %{brew cask install google-chrome}
+  run %{brew cask install dropbox-experimental}
+  run %{brew cask install iterm2}
+  run %{brew cask install 1password}
+  run %{brew cask install alfred}
+  run %{brew cask install sublime-text3}
+  run %{brew cask install the-unarchiver}
+  run %{brew cask install spotify}
+  run %{brew cask install caffeine}
+  run %{brew cask install spectacle}
+  run %{brew cask install appcleaner}
+  run %{brew cask install dash}
+  run %{brew cask install github}
+  run %{brew cask install mou}
+  run %{brew cask install skype}
+  run %{brew cask install slack}
+  run %{brew cask install telegram}
+  run %{brew cask install transmission}
+  run %{brew cask install evernote}
+  run %{brew cask install mactracker}
+  run %{brew cask install mplayerx}
+  run %{brew cask install steam}
   run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher ghi}
   run %{brew install macvim}
-  run %{ chmod a+x $HOME/.yadr/brew/install.sh }
-  run %{ $HOME/.yadr/brew/install.sh }
+  run %{brew tap homebrew/dupes}
+  run %{brew install openssl}
+  run %{brew install coreutils}
+  run %{brew install wget}
+  run %{brew install ack}
+  run %{brew install gawk}
+  run %{brew install htop}
+  run %{brew install gnupg}
+  run %{brew install gnupg2}
+  run %{brew install tree}
+  run %{brew install unrar}
+  run %{brew install scala}
+  run %{brew install sbt}
   puts
   puts
 end
