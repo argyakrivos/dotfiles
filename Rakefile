@@ -177,6 +177,7 @@ def install_homebrew
   run %{brew tap caskroom/versions}
   run %{brew cask install java6}
   run %{brew cask install java}
+  run %{brew cask install visualvm}
   run %{brew cask install google-chrome}
   run %{brew cask install dropbox-experimental}
   run %{brew cask install iterm2}
