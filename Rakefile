@@ -175,7 +175,8 @@ def install_homebrew
   run %{export HOMEBREW_CASK_OPTS="--appdir=/Applications"}
   run %{brew install caskroom/cask/brew-cask}
   run %{brew tap caskroom/versions}
-  run %{brew cask install java7}
+  run %{brew cask install java6}
+  run %{brew cask install java}
   run %{brew cask install google-chrome}
   run %{brew cask install dropbox-experimental}
   run %{brew cask install iterm2}
