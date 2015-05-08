@@ -193,6 +193,7 @@ def install_homebrew
   run %{brew cask install dash}
   run %{brew cask install github}
   run %{brew cask install mou}
+  run %{brew cask install istat-menus}
   run %{brew cask install skype}
   run %{brew cask install slack}
   run %{brew cask install telegram}
