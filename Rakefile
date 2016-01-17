@@ -182,6 +182,7 @@ def install_homebrew
   run %{brew cask install iterm2}
   run %{brew cask install 1password}
   run %{brew cask install alfred}
+  run %{brew cask install karabiner}
   run %{brew cask install atom}
   run %{brew cask install sublime-text3}
   run %{brew cask install intellij-idea-ce}
