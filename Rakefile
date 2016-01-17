@@ -202,6 +202,7 @@ def install_homebrew
   run %{brew cask install telegram}
   run %{brew cask install transmission}
   run %{brew cask install evernote}
+  run %{brew cask install doxie}
   run %{brew cask install mactracker}
   run %{brew cask install mplayerx}
   run %{brew cask install steam}
