@@ -221,6 +221,7 @@ def install_homebrew
   run %{brew install sbt}
   run %{brew install mariadb}
   run %{brew install postgresql}
+  run %{brew install elasticsearch}
   puts
   puts
 end
