@@ -219,6 +219,7 @@ def install_homebrew
   run %{brew install unrar}
   run %{brew install scala}
   run %{brew install sbt}
+  run %{brew install mariadb}
   puts
   puts
 end
