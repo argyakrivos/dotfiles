@@ -211,6 +211,7 @@ def install_homebrew
   run %{brew install ack}
   run %{brew install gawk}
   run %{brew install htop}
+  run %{brew install httpie}
   run %{brew install gnupg}
   run %{brew install gnupg2}
   run %{brew install tree}
