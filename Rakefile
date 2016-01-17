@@ -220,6 +220,7 @@ def install_homebrew
   run %{brew install scala}
   run %{brew install sbt}
   run %{brew install mariadb}
+  run %{brew install postgresql}
   puts
   puts
 end
