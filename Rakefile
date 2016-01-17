@@ -205,6 +205,7 @@ def install_homebrew
   run %{brew install macvim}
   run %{brew tap homebrew/dupes}
   run %{brew install openssl}
+  run %{brew install openssh}
   run %{brew install coreutils}
   run %{brew install wget}
   run %{brew install ack}
