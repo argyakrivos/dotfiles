@@ -186,6 +186,7 @@ def install_homebrew
   run %{brew cask install sublime-text3}
   run %{brew cask install intellij-idea-ce}
   run %{brew cask install vagrant vagrant-manager}
+  run %{brew cask install sequel-pro}
   run %{brew cask install the-unarchiver}
   run %{brew cask install spotify}
   run %{brew cask install caffeine}
