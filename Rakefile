@@ -173,7 +173,6 @@ def install_homebrew
   puts "Installing Homebrew packages...There may be some warnings."
   puts "======================================================"
   run %{export HOMEBREW_CASK_OPTS="--appdir=/Applications"}
-  run %{brew install caskroom/cask/brew-cask}
   run %{brew tap caskroom/versions}
   run %{brew cask install java}
   run %{brew cask install visualvm}
