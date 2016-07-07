@@ -172,63 +172,72 @@ def install_homebrew
   puts "======================================================"
   puts "Installing Homebrew packages...There may be some warnings."
   puts "======================================================"
-  run %{export HOMEBREW_CASK_OPTS="--appdir=/Applications"}
   run %{brew tap caskroom/versions}
   run %{brew cask install java}
-  run %{brew cask install visualvm}
-  run %{brew cask install google-chrome}
-  run %{brew cask install dropbox-experimental}
-  run %{brew cask install iterm2}
   run %{brew cask install 1password}
   run %{brew cask install alfred}
-  run %{brew cask install karabiner}
-  run %{brew cask install atom}
-  run %{brew cask install sublime-text3}
-  run %{brew cask install intellij-idea-ce}
-  run %{brew cask install vagrant vagrant-manager}
-  run %{brew cask install sequel-pro}
-  run %{brew cask install the-unarchiver}
-  run %{brew cask install spotify}
-  run %{brew cask install caffeine}
-  run %{brew cask install spectacle}
   run %{brew cask install appcleaner}
-  run %{brew cask install dash}
-  run %{brew cask install github}
-  run %{brew cask install mou}
-  run %{brew cask install istat-menus}
-  run %{brew cask install skype}
-  run %{brew cask install slack}
-  run %{brew cask install telegram}
-  run %{brew cask install transmission}
-  run %{brew cask install evernote}
+  run %{brew cask install atom}
+  run %{brew cask install caffeine}
+  run %{brew cask install cyberduck}
+  run %{brew cask install dockertoolbox}
   run %{brew cask install doxie}
+  run %{brew cask install dropbox}
+  run %{brew cask install evernote}
+  run %{brew cask install flux}
+  run %{brew cask install google-chrome}
+  run %{brew cask install gpgtools}
+  run %{brew cask install intellij-idea-ce}
+  run %{brew cask install istat-menus}
+  run %{brew cask install iterm2-beta}
+  run %{brew cask install karabiner}
+  run %{brew cask install macdown}
   run %{brew cask install mactracker}
   run %{brew cask install mplayerx}
-  run %{brew cask install steam}
-  run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher ghi}
+  run %{brew cask install psequel}
+  run %{brew cask install sequel-pro}
+  run %{brew cask install skype}
+  run %{brew cask install slack}
+  run %{brew cask install sonos}
+  run %{brew cask install spectacle}
+  run %{brew cask install spotify}
+  run %{brew cask install sublime-text}
+  run %{brew cask install teamviewer}
+  run %{brew cask install the-unarchiver}
+  run %{brew cask install transmission}
+  run %{brew cask install vagrant}
+  run %{brew cask install virtualbox virtualbox-extension-pack}
+  run %{brew cask install visualvm}
+  run %{brew cask install whatsapp}
+  run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher ghi hub}
   run %{brew install macvim}
+  run %{brew tap homebrew/core}
+  run %{brew tap homebrew/services}
+  run %{brew tap homebrew/versions}
   run %{brew tap homebrew/dupes}
-  run %{brew install openssl}
-  run %{brew install openssh}
-  run %{brew install coreutils}
-  run %{brew install wget}
   run %{brew install ack}
+  run %{brew install awscli}
+  run %{brew install cloc}
+  run %{brew install coreutils}
+  run %{brew install elasticsearch}
   run %{brew install gawk}
+  run %{brew install gnupg2}
+  run %{brew install gnupg}
   run %{brew install htop}
   run %{brew install httpie}
   run %{brew install irssi}
-  run %{brew install gnupg}
-  run %{brew install gnupg2}
+  run %{brew install jq}
+  run %{brew install keybase}
+  run %{brew install mariadb}
+  run %{brew install mongodb}
+  run %{brew install openssh}
+  run %{brew install openssl}
+  run %{brew install postgresql}
+  run %{brew install sbt}
+  run %{brew install scala}
   run %{brew install tree}
   run %{brew install unrar}
-  run %{brew install scala}
-  run %{brew install sbt}
-  run %{brew install mariadb}
-  run %{brew install postgresql}
-  run %{brew install mongodb}
-  run %{brew install elasticsearch}
-  run %{brew install awscli}
-  run %{brew install ansible}
+  run %{brew install wget}
   puts
   puts
 end
