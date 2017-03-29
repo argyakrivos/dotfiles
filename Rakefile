@@ -172,7 +172,12 @@ def install_homebrew
   puts "======================================================"
   puts "Installing Homebrew packages...There may be some warnings."
   puts "======================================================"
+  run %{brew tap caskroom/cask}
   run %{brew tap caskroom/versions}
+  run %{brew tap homebrew/core}
+  run %{brew tap homebrew/dupes}
+  run %{brew tap homebrew/services}
+  run %{brew tap homebrew/versions}
   run %{brew cask install java}
   run %{brew cask install 1password}
   run %{brew cask install alfred}
@@ -184,19 +189,23 @@ def install_homebrew
   run %{brew cask install doxie}
   run %{brew cask install dropbox}
   run %{brew cask install evernote}
-  run %{brew cask install flux}
   run %{brew cask install google-chrome}
   run %{brew cask install gpgtools}
   run %{brew cask install intellij-idea-ce}
   run %{brew cask install istat-menus}
   run %{brew cask install iterm2-beta}
   run %{brew cask install karabiner}
+  run %{brew cask install keybase}
+  run %{brew cask install kitematic}
+  run %{brew cask install libreoffice}
   run %{brew cask install macdown}
   run %{brew cask install mactracker}
   run %{brew cask install mplayerx}
   run %{brew cask install psequel}
+  run %{brew cask install robomongo}
   run %{brew cask install sequel-pro}
   run %{brew cask install skype}
+  run %{brew cask install slack}
   run %{brew cask install sonos}
   run %{brew cask install spectacle}
   run %{brew cask install spotify}
@@ -210,28 +219,30 @@ def install_homebrew
   run %{brew cask install whatsapp}
   run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher ghi hub}
   run %{brew install macvim}
-  run %{brew tap homebrew/core}
-  run %{brew tap homebrew/services}
-  run %{brew tap homebrew/versions}
-  run %{brew tap homebrew/dupes}
   run %{brew install ack}
+  run %{brew install ansible}
   run %{brew install awscli}
+  run %{brew install certbot}
   run %{brew install cloc}
   run %{brew install coreutils}
   run %{brew install elasticsearch}
   run %{brew install gawk}
-  run %{brew install gnupg2}
   run %{brew install gnupg}
+  run %{brew install gnupg2}
   run %{brew install htop}
   run %{brew install httpie}
+  run %{brew install influxdb}
   run %{brew install irssi}
   run %{brew install jq}
-  run %{brew install keybase}
   run %{brew install mariadb}
+  run %{brew install maven}
   run %{brew install mongodb}
+  run %{brew install node}
   run %{brew install openssh}
   run %{brew install openssl}
   run %{brew install postgresql}
+  run %{brew install python}
+  run %{brew install python3}
   run %{brew install sbt}
   run %{brew install scala}
   run %{brew install tree}
