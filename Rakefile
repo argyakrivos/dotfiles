@@ -185,7 +185,7 @@ def install_homebrew
   run %{brew cask install atom}
   run %{brew cask install caffeine}
   run %{brew cask install cyberduck}
-  run %{brew cask install dockertoolbox}
+  run %{brew cask install docker}
   run %{brew cask install doxie}
   run %{brew cask install dropbox}
   run %{brew cask install evernote}
