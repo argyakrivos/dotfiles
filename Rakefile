@@ -174,8 +174,11 @@ def install_homebrew
   puts "======================================================"
   run %{brew tap caskroom/cask}
   run %{brew tap caskroom/versions}
+  run %{brew tap caskroom/fonts}
   run %{brew tap homebrew/core}
   run %{brew tap homebrew/services}
+  run %{brew cask install font-inconsolata}
+  run %{brew cask install font-source-code-pro}
   run %{brew cask install java}
   run %{brew cask install 1password}
   run %{brew cask install alfred}
