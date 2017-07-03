@@ -175,7 +175,6 @@ def install_homebrew
   run %{brew tap caskroom/cask}
   run %{brew tap caskroom/versions}
   run %{brew tap homebrew/core}
-  run %{brew tap homebrew/dupes}
   run %{brew tap homebrew/services}
   run %{brew tap homebrew/versions}
   run %{brew cask install java}
