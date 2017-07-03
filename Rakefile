@@ -186,6 +186,7 @@ def install_homebrew
   run %{brew cask install doxie}
   run %{brew cask install dropbox}
   run %{brew cask install evernote}
+  run %{brew cask install filezilla}
   run %{brew cask install google-chrome}
   run %{brew cask install gpgtools}
   run %{brew cask install intellij-idea-ce}
