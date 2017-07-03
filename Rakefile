@@ -203,7 +203,6 @@ def install_homebrew
   run %{brew cask install sequel-pro}
   run %{brew cask install skype}
   run %{brew cask install slack}
-  run %{brew cask install sonos}
   run %{brew cask install spectacle}
   run %{brew cask install spotify}
   run %{brew cask install sublime-text}
