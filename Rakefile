@@ -176,7 +176,6 @@ def install_homebrew
   run %{brew tap caskroom/versions}
   run %{brew tap homebrew/core}
   run %{brew tap homebrew/services}
-  run %{brew tap homebrew/versions}
   run %{brew cask install java}
   run %{brew cask install 1password}
   run %{brew cask install alfred}
