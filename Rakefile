@@ -211,6 +211,7 @@ def install_homebrew
   run %{brew cask install spotify}
   run %{brew cask install sublime-text}
   run %{brew cask install teamviewer}
+  run %{brew cask install telegram}
   run %{brew cask install the-unarchiver}
   run %{brew cask install transmission}
   run %{brew cask install tunnelblick}
