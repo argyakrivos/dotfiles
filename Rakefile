@@ -213,6 +213,7 @@ def install_homebrew
   run %{brew cask install teamviewer}
   run %{brew cask install the-unarchiver}
   run %{brew cask install transmission}
+  run %{brew cask install tunnelblick}
   run %{brew cask install vagrant}
   run %{brew cask install virtualbox virtualbox-extension-pack}
   run %{brew cask install visualvm}
