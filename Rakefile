@@ -172,9 +172,6 @@ def install_homebrew
   puts "======================================================"
   puts "Installing Homebrew packages...There may be some warnings."
   puts "======================================================"
-  run %{brew tap caskroom/cask}
-  run %{brew tap caskroom/versions}
-  run %{brew tap caskroom/fonts}
   run %{brew tap homebrew/core}
   run %{brew tap homebrew/services}
   run %{brew cask install font-inconsolata}
@@ -219,7 +216,7 @@ def install_homebrew
   run %{brew cask install virtualbox virtualbox-extension-pack}
   run %{brew cask install visualvm}
   run %{brew cask install whatsapp}
-  run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher ghi hub}
+  run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher ghi}
   run %{brew install macvim}
   run %{brew install ack}
   run %{brew install ansible}
