@@ -192,6 +192,7 @@ def install_homebrew
   run %{brew cask install gpgtools}
   run %{brew cask install intellij-idea-ce}
   run %{brew cask install istat-menus}
+  run %{brew cask install intel-power-gadget}
   run %{brew cask install iterm2-beta}
   run %{brew cask install karabiner}
   run %{brew cask install keybase}
