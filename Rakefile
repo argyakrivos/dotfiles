@@ -181,7 +181,7 @@ def install_homebrew
   run %{brew cask install 1password}
   run %{brew cask install alfred}
   run %{brew cask install appcleaner}
-  run %{brew cask install atom}
+  run %{brew cask install visual-studio-code}
   run %{brew cask install caffeine}
   run %{brew cask install docker}
   run %{brew cask install doxie}
