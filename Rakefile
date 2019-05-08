@@ -196,7 +196,6 @@ def install_homebrew
   run %{brew cask install karabiner}
   run %{brew cask install keybase}
   run %{brew cask install kitematic}
-  run %{brew cask install libreoffice}
   run %{brew cask install macdown}
   run %{brew cask install mactracker}
   run %{brew cask install mplayerx}
