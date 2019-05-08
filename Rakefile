@@ -229,7 +229,6 @@ def install_homebrew
   run %{brew install jq}
   run %{brew install mariadb}
   run %{brew install maven}
-  run %{brew install mongodb}
   run %{brew install node}
   run %{brew install openssh}
   run %{brew install openssl}
