@@ -200,7 +200,6 @@ def install_homebrew
   run %{brew cask install mactracker}
   run %{brew cask install mplayerx}
   run %{brew cask install psequel}
-  run %{brew cask install robo-3t}
   run %{brew cask install sequel-pro}
   run %{brew cask install skype}
   run %{brew cask install slack}
