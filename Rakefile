@@ -228,7 +228,6 @@ def install_homebrew
   run %{brew install gnupg}
   run %{brew install htop}
   run %{brew install httpie}
-  run %{brew install irssi}
   run %{brew install jq}
   run %{brew install mariadb}
   run %{brew install maven}
