@@ -174,6 +174,8 @@ def install_homebrew
   puts "======================================================"
   run %{brew tap homebrew/core}
   run %{brew tap homebrew/services}
+  run %{brew tap homebrew/cask-fonts}
+  run %{brew tap homebrew/cask-versions}
   run %{brew cask install font-inconsolata}
   run %{brew cask install font-source-code-pro}
   run %{brew cask install font-fira-code}
@@ -187,7 +189,6 @@ def install_homebrew
   run %{brew cask install doxie}
   run %{brew cask install dropbox}
   run %{brew cask install evernote}
-  run %{brew cask install filezilla}
   run %{brew cask install google-chrome}
   run %{brew cask install gpgtools}
   run %{brew cask install intellij-idea-ce}
