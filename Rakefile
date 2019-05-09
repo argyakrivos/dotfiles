@@ -190,7 +190,7 @@ def install_homebrew
   run %{brew cask install dropbox}
   run %{brew cask install evernote}
   run %{brew cask install google-chrome}
-  run %{brew cask install gpgtools}
+  run %{brew cask install gpg-suite}
   run %{brew cask install intellij-idea-ce}
   run %{brew cask install istat-menus}
   run %{brew cask install intel-power-gadget}
