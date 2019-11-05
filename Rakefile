@@ -196,12 +196,8 @@ def install_homebrew
   run %{brew cask install intel-power-gadget}
   run %{brew cask install iterm2-beta}
   run %{brew cask install postman}
-  run %{brew cask install karabiner}
-  run %{brew cask install keybase}
   run %{brew cask install kitematic}
   run %{brew cask install macdown}
-  run %{brew cask install mactracker}
-  run %{brew cask install mplayerx}
   run %{brew cask install postico}
   run %{brew cask install sequel-pro}
   run %{brew cask install skype}
@@ -219,19 +215,16 @@ def install_homebrew
   run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher ghi}
   run %{brew install macvim}
   run %{brew install ack}
-  run %{brew install ansible}
   run %{brew install awscli}
   run %{brew install certbot}
   run %{brew install cloc}
   run %{brew install coreutils}
-  run %{brew install elasticsearch}
   run %{brew install gawk}
   run %{brew install gnupg}
   run %{brew install htop}
   run %{brew install httpie}
   run %{brew install jq}
   run %{brew install mariadb}
-  run %{brew install maven}
   run %{brew install node}
   run %{brew install openssh}
   run %{brew install openssl}
