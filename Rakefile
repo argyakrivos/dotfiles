@@ -186,10 +186,10 @@ def install_homebrew
   run %{brew cask install visual-studio-code}
   run %{brew cask install caffeine}
   run %{brew cask install docker}
-  run %{brew cask install doxie}
   run %{brew cask install dropbox}
   run %{brew cask install evernote}
   run %{brew cask install google-chrome}
+  run %{brew cask install firefox}
   run %{brew cask install gpg-suite}
   run %{brew cask install intellij-idea-ce}
   run %{brew cask install istat-menus}
@@ -204,7 +204,6 @@ def install_homebrew
   run %{brew cask install slack}
   run %{brew cask install spectacle}
   run %{brew cask install spotify}
-  run %{brew cask install sublime-text}
   run %{brew cask install teamviewer}
   run %{brew cask install the-unarchiver}
   run %{brew cask install tunnelblick}
